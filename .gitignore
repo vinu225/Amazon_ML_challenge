@@ -1,0 +1,76 @@
+# ===========================
+# Datasets (too large for Git)
+# ===========================
+student_resource/dataset/
+**/dataset/
+
+# ===========================
+# Output / Submission Files
+# (will be huge when complete)
+# ===========================
+student_resource/output/
+**/output/
+
+# ===========================
+# Trained Model Weights
+# (~3.3 MB each, use Git LFS
+#  or upload manually to Colab)
+# ===========================
+*.pkl
+*.joblib
+*.pt
+*.onnx
+*.bin
+*.h5
+
+# ===========================
+# Python Caches & Bytecode
+# ===========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+
+# ===========================
+# Virtual Environments
+# ===========================
+venv/
+.venv/
+env/
+ENV/
+.env
+
+# ===========================
+# OS-Specific Files
+# ===========================
+.DS_Store
+Thumbs.db
+desktop.ini
+ehthumbs.db
+
+# ===========================
+# Scratch / Temporary Files
+# ===========================
+scratch_*.txt
+*.log
+*.tmp
+*.bak
+
+# ===========================
+# IDE / Editor Config
+# ===========================
+.vscode/
+.idea/
+*.suo
+*.user
+*.swp
+*.swo
+
+# ===========================
+# Jupyter Notebooks (optional)
+# Remove if you want to track
+# ===========================
+# *.ipynb
